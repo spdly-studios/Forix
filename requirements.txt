@@ -1,0 +1,27 @@
+# Forix — Python dependencies
+# Install: pip install -r requirements.txt
+
+# ── UI ────────────────────────────────────────────────────────────────────
+PyQt6>=6.4.0
+
+# ── File System Monitoring ────────────────────────────────────────────────
+watchdog>=3.0.0
+
+# ── Database ORM ──────────────────────────────────────────────────────────
+SQLAlchemy>=2.0.0
+
+# ── Image / Icon Processing ───────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Fuzzy Search ──────────────────────────────────────────────────────────
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0      # speeds up fuzzywuzzy significantly
+
+# ── System Integration ────────────────────────────────────────────────────
+psutil>=5.9.0
+
+# ── Windows-specific (optional but recommended on Windows) ────────────────
+pywin32>=306; sys_platform == 'win32'
+
+# ── Packaging (optional — only needed to build the .exe) ─────────────────
+# pyinstaller>=5.13.0
